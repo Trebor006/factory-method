@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.mibu.factorymethod.spanish.SpanishFileAudio</OriginalElement>
+  <nodes>
+    <node x="269.0" y="464.0">com.mibu.factorymethod.english.EnglishSpecificFileGenerator</node>
+    <node x="244.0" y="538.0">com.mibu.factorymethod.Main</node>
+    <node x="32.5" y="538.0">com.mibu.factorymethod.LanguageFile</node>
+    <node x="183.0" y="311.0">com.mibu.factorymethod.spanish.SpanishFileVideo</node>
+    <node x="549.0" y="311.0">com.mibu.factorymethod.spanish.SpanishFileAudio</node>
+    <node x="159.5" y="385.0">com.mibu.factorymethod.SpecificFileGenerator</node>
+    <node x="366.0" y="311.0">com.mibu.factorymethod.english.EnglishFileVideo</node>
+    <node x="140.0" y="0.0">java.io.Serializable</node>
+    <node x="81.0" y="158.0">com.mibu.factorymethod.FileType</node>
+    <node x="0.0" y="311.0">com.mibu.factorymethod.english.EnglishFileAudio</node>
+    <node x="95.5" y="79.0">java.lang.Enum</node>
+    <node x="0.0" y="464.0">com.mibu.factorymethod.spanish.SpanishSpecificFileGenerator</node>
+    <node x="0.0" y="0.0">java.lang.Comparable</node>
+    <node x="318.0" y="232.0">com.mibu.factorymethod.File</node>
+    <node x="0.0" y="617.0">com.mibu.factorymethod.LanguageFileGenerator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.mibu.factorymethod.spanish.SpanishFileAudio" target="com.mibu.factorymethod.File">
+      <point x="0.0" y="-14.5" />
+      <point x="630.5" y="281.0" />
+      <point x="384.5" y="281.0" />
+      <point x="28.5" y="14.5" />
+    </edge>
+    <edge source="com.mibu.factorymethod.LanguageFileGenerator" target="com.mibu.factorymethod.LanguageFile">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mibu.factorymethod.english.EnglishFileVideo" target="com.mibu.factorymethod.File">
+      <point x="0.0" y="-14.5" />
+      <point x="447.5" y="291.0" />
+      <point x="365.5" y="291.0" />
+      <point x="9.5" y="14.5" />
+    </edge>
+    <edge source="com.mibu.factorymethod.FileType" target="java.lang.Enum">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="19.0" y="-14.5" />
+      <point x="152.5" y="54.0" />
+      <point x="207.0" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mibu.factorymethod.spanish.SpanishSpecificFileGenerator" target="com.mibu.factorymethod.SpecificFileGenerator">
+      <point x="0.0" y="-14.5" />
+      <point x="124.5" y="439.0" />
+      <point x="209.25" y="439.0" />
+      <point x="-49.75" y="14.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-19.0" y="-14.5" />
+      <point x="114.5" y="54.0" />
+      <point x="60.0" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="com.mibu.factorymethod.english.EnglishFileAudio" target="com.mibu.factorymethod.File">
+      <point x="0.0" y="-14.5" />
+      <point x="81.5" y="281.0" />
+      <point x="327.5" y="281.0" />
+      <point x="-28.5" y="14.5" />
+    </edge>
+    <edge source="com.mibu.factorymethod.english.EnglishSpecificFileGenerator" target="com.mibu.factorymethod.SpecificFileGenerator">
+      <point x="0.0" y="-14.5" />
+      <point x="393.5" y="439.0" />
+      <point x="308.75" y="439.0" />
+      <point x="49.75" y="14.5" />
+    </edge>
+    <edge source="com.mibu.factorymethod.spanish.SpanishFileVideo" target="com.mibu.factorymethod.File">
+      <point x="0.0" y="-14.5" />
+      <point x="264.5" y="291.0" />
+      <point x="346.5" y="291.0" />
+      <point x="-9.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="356.0" y="323.0" />
+  <SelectedNodes>
+    <node>com.mibu.factorymethod.spanish.SpanishFileAudio</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
