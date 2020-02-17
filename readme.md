@@ -1,4 +1,4 @@
-#Singleton
+#Factory Method
 
 ##Documentación del Patron Factory Method
 [Para Ver click Aquí](https://drive.google.com/open?id=11eWblEkhrIZHXIZrQFwTiT7IVu3c9uRo65geAeeknU8)
